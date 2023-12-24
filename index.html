@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Protfolio-1</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./asset/css/all.min.css">
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
     <link rel="stylesheet" href="./asset/css/slick.css">
     <link rel="stylesheet" href="./asset/css/store.css">
     <link rel="stylesheet" href="./asset/css/fokir.css">
+    <link rel="stylesheet" href="./asset/css/journey.css">
+    <link rel="stylesheet" href="./asset/css/venobox.min.css">
     <link rel="stylesheet" href="./asset/css/style.css">
     <link rel="stylesheet" href="./asset/css/responsive.css">
 </head>
@@ -39,14 +43,14 @@
     </div> -->
     <!-- ######## POPUP END ####### -->
 
-    <section id="logo-social">
+    <!-- <section id="logo-social">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 menu">
                     <div class="bc">
 
                     </div>
-                    <!-- img_manu -->
+  
                     <div class="mc-2"></div>
                     <div class="logo-img img_manu  ">
                         <a class="logo" href="#"><img src="./asset/images/logo/Black-logo-Transparent-for-Mobile.gif"
@@ -58,9 +62,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="navbar">
+    <!-- <section id="navbar">
         <div class="boiu9 main_manu">
             <div class="card-area">
 
@@ -70,11 +74,7 @@
 
                 <nav class="navbar navbar-expand-lg">
                     <div class="container">
-                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button> -->
+                        
 
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -170,7 +170,130 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+
+    <!-- Preloader Start -->
+    <div class="preloader text-center">
+        <img src="asset/images/logo/ezgif.com-crop.gif"  alt="">
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Navbar Start -->
+    <section id="navbar_main">
+        <nav class="navbar navbar-expand-lg navbar-light extra_nav">
+            <div class="container">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active pt-0" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pt-0" href="store.html">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pt-0" href="contact.html">Contact</a>
+    
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pt-0" href="about.html">About</a>
+                        </li>
+    
+                    </ul>
+                    <div class="logo_extra me-auto">
+                        <a href="index.html">
+                            <img src="/asset/images/logo/ezgif.com-crop.gif" alt="logo">
+                        </a>
+                    </div>
+                    <span class="navbar-text">
+                        <div class="social_icon d-none d-sm-block">
+                            <ul class="d-flex">
+                                <form class="search">
+                                    <div class="search__wrapper">
+                                        <input type="text" name="" placeholder="Search for..."
+                                            class="search__field">
+                                        <button type="submit">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                                <li class="noi_phone"><a href="#!"><i class="fa-regular fa-user"></i></a></li>
+
+                                <li>
+                                    <button class="btn btn-primary p-0" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                                        class="fa-solid fa-cart-shopping"></i></button>
+
+                                    <span class="cart_doten">3</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-end " style="z-index:99999 ;" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel text-center">YOUR CART |</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="shopoin_cart">
+                    <div class="box">
+                        <i class="fa fa-trash"></i>
+                        <img src="./asset/images/card-img/card-1.png" alt="">
+                        <div class="content">
+                            <h3>Blouse T-shirt</h3>
+                            <span class="price">Price : $30.00 /-</span>
+                            <span class="quantity">Qty : 2</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-trash"></i>
+                        <img src="./asset/images/card-img/cart-2.png" alt="">
+                        <div class="content">
+                            <h3>Blouse T-shirt</h3>
+                            <span class="price">Price : $30.00 /-</span>
+                            <span class="quantity">Qty : 2</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-trash"></i>
+                        <img src="./asset/images/card-img/cart-3.png" alt="">
+                        <div class="content">
+                            <h3>Blouse T-shirt</h3>
+                            <span class="price">Price : $30.00 /-</span>
+                            <span class="quantity">Qty : 2</span>
+
+                        </div>
+                    </div>
+                    <div class="total">
+                        <ul>
+                            <li>Subtotal: <span>$90</span></li>
+                            <li>Discount 20%: <span>- $18.9</span></li>
+                            <li>Total: <span>$75.6</span></li>
+                        </ul>
+                        <a href="#" class="btn-c">Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- Navbar End -->
+
+
+
+
+
+
+
 
     <section id="banner-part">
         <div class="container">
@@ -678,6 +801,111 @@
     </section>
 
 
+    <section id="journey_part">
+        <div class="container">
+            <div class="row">
+                <div class="jur-heaer text-center">
+                    <h2>Journey to IFMH</h2>
+                </div>
+                <div class="jor_main">
+                    <div class="row  ">
+                        <div class="col-lg-12">
+                            <div class="date text-center d-none d-md-block">
+                                <span>November 2017</span>
+                                <span>November 2017</span>
+                                <span>November 2017</span>
+                                <span>November 2017</span>
+                                <span>November 2017</span>
+                            </div>
+                            <div class="samer-line  d-none d-md-block">
+                                <div class="right-dot"></div>
+                                <div class="all-mini-dot">
+                                    <div class="right-all">
+                                        <div class="last-r"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="journey_img">
+                            <div class="jor_img_and_video">
+                                <span class="d-block d-md-none">November 2017</span>
+                                <div class="col-lg-4">
+                                    <img src="./asset/images/journey-img/journey 1.png" alt="">
+                                </div>
+                                <div class="overly_jor">
+                                    <a class="venobox" data-autoplay="true" data-vbtype="video"
+                                        href="https://www.youtube.com/watch?v=HE9JioDuXkQ"><i
+                                            class="fa-solid fa-play"></i></a>
+                                </div>
+                                <p class="oioo">First Time Saying I Find Myself Here While doing a photography BTS reel
+                                    for instagram, I said that faithful phrase, and never looked back! </p>
+                            </div>
+                            <div class="jor_img_and_video">
+                                <span class="d-block d-md-none">November 2017</span>
+                                <div class="col-lg-4">
+                                    <img src="./asset/images/journey-img/journey 1.png" alt="">
+                                </div>
+                                <div class="overly_jor">
+                                    <a class="venobox" data-autoplay="true" data-vbtype="video"
+                                        href="https://www.youtube.com/watch?v=HE9JioDuXkQ"><i
+                                            class="fa-solid fa-play"></i></a>
+                                </div>
+                                <p class="oioo">IFMH Logo Made for My Youtube Banner
+
+                                    I made IFMH logo and vlog intro video then changed all my social media handles to
+                                    @ifindmyselfhere</p>
+                            </div>
+                            <div class="jor_img_and_video">
+                                <span class="d-block d-md-none">November 2017</span>
+                                <div class="col-lg-4">
+                                    <img src="./asset/images/journey-img/journey 1.png" alt="">
+                                </div>
+                                <div class="overly_jor">
+                                    <a class="venobox" data-autoplay="true" data-vbtype="video"
+                                        href="https://www.youtube.com/watch?v=HE9JioDuXkQ"><i
+                                            class="fa-solid fa-play"></i></a>
+                                </div>
+                                <p class="oioo">First Time Saying I Find Myself Here While doing a photography BTS reel
+                                    for
+                                    instagram, I said that faithful phrase, and never looked back!</p>
+                            </div>
+                            <div class="jor_img_and_video">
+                                <span class="d-block d-md-none">November 2017</span>
+                                <div class="col-lg-4">
+                                    <img src="./asset/images/journey-img/journey 1.png" alt="">
+                                </div>
+                                <div class="overly_jor">
+                                    <a class="venobox" data-autoplay="true" data-vbtype="video"
+                                        href="https://www.youtube.com/watch?v=HE9JioDuXkQ"><i
+                                            class="fa-solid fa-play"></i></a>
+                                </div>
+                                <p class="oioo">First Time Saying I Find Myself Here While doing a photography BTS reel
+                                    for
+                                    instagram, I said that faithful phrase, and never looked back!</p>
+                            </div>
+                            <div class="jor_img_and_video">
+                                <span class="d-block d-md-none">November 2017</span>
+                                <div class="col-lg-4">
+                                    <img src="./asset/images/journey-img/journey 1.png" alt="">
+                                </div>
+                                <div class="overly_jor">
+                                    <a class="venobox" data-autoplay="true" data-vbtype="video"
+                                        href="https://www.youtube.com/watch?v=HE9JioDuXkQ"><i
+                                            class="fa-solid fa-play"></i></a>
+                                </div>
+                                <p class="oioo">First Time Saying I Find Myself Here While doing a photography BTS reel
+                                    for
+                                    instagram, I said that faithful phrase, and never looked back!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
     <footer id="footer-part">
         <div class="container">
             <div class="row">
@@ -787,6 +1015,14 @@
     <script src="./asset/js/all.min.js"></script>
     <script src="./asset/js/slick.min.js"></script>
     <script src="./asset/js/script.js"></script>
+    <script src="./asset/js/venobox.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+
+
+
 
 
     <script>
@@ -872,6 +1108,8 @@
             ]
 
         });
+
+        $('.venobox').venobox();
     </script>
 
 

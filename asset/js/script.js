@@ -7,6 +7,33 @@ $(window).scroll(function(){
   
 })
 
+
+
+  
+$(window).on('scroll',function(){
+  let scrolling = $(this).scrollTop()
+
+  if( scrolling >160){
+    $(".extra_nav").addClass("nav_ex")
+  }else{
+    $(".extra_nav").removeClass("nav_ex")
+  }
+
+  if( scrolling >160){
+    $(".preloader").addClass("pre_ex")
+  }else{
+    $(".preloader").removeClass("pre_ex")
+  }
+})
+
+
+
+
+
+
+
+
+
 $(function () {
   'use strict';
 

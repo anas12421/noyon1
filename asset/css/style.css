@@ -60,6 +60,92 @@ body.body-nav-open header .header-right .right-content .item .form-group {
                  Common css End  
   ======================================================*/
 
+
+  /*preloader start  */
+  .preloader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+
+  .pre_ex {
+    height: 0;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+  /*preloader end  */
+
+/* Navbar Css start */
+.extra_nav{
+    width: 100%;
+    background-color: #f1f1f1;
+    /* padding: 25px 0; */
+}
+.extra_nav ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear .2s;
+}
+.extra_nav .logo_extra{
+    text-align: center;
+}
+
+.extra_nav .logo_extra img{
+    width: 150px;
+}
+
+.nav_ex{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+
+/* Navbar Css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ######## CARD START ########### */
 .shopping-card .box img {
     width: 102px;
@@ -531,23 +617,23 @@ SEARCH FIELD .search__wrapper {
 
 
 /* ############## LOGO-SOCIAL CSS START ############## */
-.logo-img{
+/* .logo-img{
     position: relative;
-}
+} */
 
-.logo-img a {
+/* .logo-img a {
     transform: translate(33rem, 2rem);
     -webkit-transform: translate(33rem, 2rem);
     -moz-transform: translate(33rem, 2rem);
     -ms-transform: translate(33rem, 2rem);
     -o-transform: translate(33rem, 2rem);
-}
+} */
 
-
+/* 
 .logo-img a img {
     width: 100%;
     height: 100%;
-    /* margin: -17px 0 -81px -43px; */
+   
 }
 
 
@@ -560,8 +646,8 @@ SEARCH FIELD .search__wrapper {
     -webkit-transform: translate(-40%, -25%);
     -moz-transform: translate(-40%, -25%);
     -ms-transform: translate(-40%, -25%);
-    -o-transform: translate(-40%, -25%);
-}
+    -o-transform: translate(-40%, -25%); 
+}*/
 
 
 
@@ -586,7 +672,7 @@ color: #fd7e14;
 }
 .social_icon ul li button:focus{
 background-color: transparent;
-}
+} 
 
 
 
@@ -598,11 +684,11 @@ background-color: transparent;
     text-align: center;
     line-height: 16px;
     position: absolute;
-    /* top: 0 !important; */
+
     right: -8px;
     z-index: 9;
     top: 37%;
-    /* position: fixed; */
+
     cursor: pointer;
     font-weight: 600;
     color: #fff;
@@ -610,9 +696,16 @@ background-color: transparent;
 
 
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-    color: var(--bs-btn-active-color);
+    color:black;
     background-color: transparent;
     border-color: transparent;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
 }
 
 .time_date {
@@ -646,10 +739,14 @@ background-color: transparent;
     padding-top: 12rem;
 } */
 
-#navbar ul li a {
+/* #navbar ul li a {
     font-size: 16px;
     font-weight: 500;
     transition: all linear .2s;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
 }
 
 #navbar span a {
@@ -666,14 +763,15 @@ background-color: transparent;
 
 .nav-link:focus,
 .nav-link:hover {
-    color: #000000;
-}
+    color: #000000; 
+}*/
 
 /* ##############  NAVBER CSS END ############## */
 
 
 /* ##############  BANNER CSS START ############## */
 #banner-part {
+    margin-top: 320px;
     padding-bottom: 30px;
     position: relative;
     background: #fff;

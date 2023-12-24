@@ -741,8 +741,14 @@
 
 @media (max-width: 393.852px) {
     .logo-img a {
-        transform: translate(9rem, 1rem);
-    }
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+}
+
+   
 
     #navbar {
         position: absolute;
