@@ -60,6 +60,9 @@ body.body-nav-open header .header-right .right-content .item .form-group {
                  Common css End  
   ======================================================*/
 
+  .about_part{
+    margin-top: 250px;
+  }
 
   /*preloader start  */
   .preloader{

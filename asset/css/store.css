@@ -71,6 +71,7 @@ a:hover {
 /* ############## PRODUCT PART START ############## */
 
 #product-part{
+   margin-top: 300px;
    margin-bottom: 30px;
 }
 .product-img a img {
