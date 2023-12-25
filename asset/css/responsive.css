@@ -799,20 +799,31 @@
         width: 40% !important;
         padding-top: 10px;
        }
-    .res_nav ul li a{
-        margin: 15px 0;
-    }
+       
+       .res_height{
+           height: 100px;
+        }
+        
+        .navbar-toggler:focus {
+            text-decoration: none;
+            outline: 0;
+            box-shadow: none;
+        }
+        
+        .res_nav ul{
+            margin-top: 25px;
+            text-align: center;
+        }
+    
+        .res_nav ul li a{
+            margin: 5px 0;
+            padding-top: 0 !important;
+            color: black !important;
+        }
 
-    .res_height{
-        height: 100px;
-    }
-
-    .navbar-toggler:focus {
-        text-decoration: none;
-        outline: 0;
-        box-shadow: none;
-    }
-
+        .res_nav ul li a.active{
+            font-weight: 600;
+        }
 
 
 
