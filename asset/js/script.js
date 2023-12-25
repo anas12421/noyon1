@@ -13,7 +13,7 @@ $(window).scroll(function(){
 $(window).on('scroll',function(){
   let scrolling = $(this).scrollTop()
 
-  if( scrolling >160){
+  if( scrolling >140){
     $(".extra_nav").addClass("nav_ex")
   }else{
     $(".extra_nav").removeClass("nav_ex")
