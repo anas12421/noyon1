@@ -24,7 +24,7 @@
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         color: var(--bs-navbar-color);
-        padding-left: 32rem !important;
+        padding-left: 0 !important;
     }
 
     .logo-img a img {
@@ -555,11 +555,7 @@
     }
 
     .navbar-text {
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-        color: var(--bs-navbar-color);
-        padding-left: 135px;
-        padding-left: 81px;
+       
     }
 
     #banner-part {
@@ -573,10 +569,10 @@
     }
 
     .social_icon ul {
-        position: absolute;
+        /* position: absolute; */
         /* left: ; */
-        right: 0;
-        top: 19px;
+        /* right: 0; */
+        /* top: 19px; */
     }
 
     .product-img a p {
@@ -770,7 +766,11 @@
         width: 168px;
         height: 114px;
         transform: translate(-28px, -15px);
-    }
+        -webkit-transform: translate(-28px, -15px);
+        -moz-transform: translate(-28px, -15px);
+        -ms-transform: translate(-28px, -15px);
+        -o-transform: translate(-28px, -15px);
+}
 
     #navbar ul li a {
         font-size: 18px;
@@ -780,15 +780,19 @@
     }
 
     .navbar-text {
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-        color: var(--bs-navbar-color);
-        padding-left: 101px;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
     }
 
 
-    .res_nav {
-        /* height: 250px; */
+    .nav_ani {
+        
+    }
+
+    .nav_ex{
+        position: fixed;
+        top: 0;
+        z-index: 9999;
     }
 
     .navbar-toggler{
@@ -825,7 +829,31 @@
             font-weight: 600;
         }
 
+       .extra_nav_items{
+        background-color: #f1f1f1;
+       }
 
+       .social_icon ul .cart_btn{
+        position: relative;
+    }
+
+       .cart_doten {
+        font-size: 10px;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #fd7e14;
+        text-align: center;
+        line-height: 13px;
+        position: absolute;
+        right: 5%;
+        z-index: 9;
+        top: 10%;
+        cursor: pointer;
+        font-weight: 600;
+        color: #fff;
+        
+}
 
 
 
@@ -840,11 +868,7 @@
         height: 265px;
     }
 
-    .social_icon ul {
-        position: absolute;
-        right: 7px;
-        top: 330px;
-    }
+
 
     .search__field {
         width: 50px;
@@ -862,7 +886,7 @@
 
     .search__field:focus {
         border-bottom-color: #ccc;
-        width: 60vw !important;
+        width: 50vw !important;
         color: #2b2b2b;
         cursor: default;
     }
@@ -872,9 +896,22 @@
         height: 41px;
     }
 
+
     .noi_phone {
-        display: none;
+        /* display: none; */
+        font-size: 23px !important;
+        /* border:  1px solid red; */
+        padding: 0 !important;
+        margin-left: 15px;
     }
+
+    .social_icon ul li a {
+        color: #313131;
+        margin: 0 0;
+        padding-top: 0;
+    }
+
+   
 
     .product-img a p {
         margin: -49px 0px 0px 9px;
@@ -1028,6 +1065,24 @@
     /* ##### REVIEW END ##### */
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 390.852px) {
     .preloader img{

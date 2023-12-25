@@ -19,7 +19,13 @@ $(window).on('scroll',function(){
     $(".extra_nav").removeClass("nav_ex")
   }
 
-  if( scrolling >160){
+  if( scrolling >150){
+    $(".nav_ani").addClass("nav_ex")
+  }else{
+    $(".nav_ani").removeClass("nav_ex")
+  }
+
+  if( scrolling >120){
     $(".preloader").addClass("pre_ex")
   }else{
     $(".preloader").removeClass("pre_ex")
