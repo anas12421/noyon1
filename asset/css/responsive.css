@@ -786,6 +786,39 @@
         padding-left: 101px;
     }
 
+
+    .res_nav {
+        /* height: 250px; */
+    }
+
+    .navbar-toggler{
+        font-size: 30px !important;
+    }
+
+    .res_nav .res_logo{
+        width: 40% !important;
+        padding-top: 10px;
+       }
+    .res_nav ul li a{
+        margin: 15px 0;
+    }
+
+    .res_height{
+        height: 100px;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
+
+
+
+
+
+
     #banner-part {
         padding-bottom: 30px;
         margin-left: 31px;
@@ -986,6 +1019,9 @@
 }
 
 @media (max-width: 390.852px) {
+    .preloader img{
+        width: 50%;
+    }
     .W img {
         width: 281px !important;
         height: 265px;
@@ -993,6 +1029,9 @@
 }
 
 @media (max-width: 576.852px) {
+    .preloader img{
+        width: 50%;
+    }
     .manu_fixed {
         padding: 1px 32px;
     }

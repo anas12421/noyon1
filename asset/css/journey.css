@@ -54,6 +54,11 @@ body {
     padding: 60px 0;
 }
 
+#res_journey{
+    background: #e6e9eb;
+    padding: 60px 0;
+}
+
 .date {
     padding-top: 40px;
     width: 126%;
@@ -217,7 +222,18 @@ body {
     width: 210px;
     height: 203px;
     margin: 2px 0 0 59px;
+    /* margin: 0 auto; */
 }
+
+.slick-slide img {
+    display: inline-block;
+}
+
+.res_img_and_video img{
+    margin-left: 0;
+    margin: 10px;
+}
+
 
 .overly_jor {
     position: absolute;
@@ -232,9 +248,18 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: all linear.1s;
-
+    
 }
 
+.res_img_and_video .overly_jor{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
 .jor_img_and_video:hover .overly_jor a {
     visibility: visible;
     opacity: 1;
@@ -245,6 +270,11 @@ body {
     color: rgb(0, 0, 0);
     font-family: inherit;
 }
+
+.res_img_and_video .oioo{
+    padding-left: 0;
+}
+
 
 .jor_main {
     overflow-x: scroll;

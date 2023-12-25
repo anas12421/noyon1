@@ -30,9 +30,6 @@ li {
     padding: 0;
 }
 
-li {
-    height: 0;
-}
 
 a:hover {
     text-decoration: none;
@@ -110,6 +107,22 @@ body.body-nav-open header .header-right .right-content .item .form-group {
 
 
 /* Navbar Css end */
+
+
+/* res nav */
+.res_nav{
+    padding: 0 0 15px 0;
+    background-color: #f1f1f1;
+   
+}
+.res_nav .res_logo{
+ width: 10% !important;
+ padding-top: 10px;
+}
+
+.res_nav ul li a{
+    padding-top: 35px !important;
+}
 
 
 
