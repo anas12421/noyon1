@@ -13,13 +13,13 @@ $(window).scroll(function(){
 $(window).on('scroll',function(){
   let scrolling = $(this).scrollTop()
 
-  if( scrolling >140){
+  if( scrolling >100){
     $(".extra_nav").addClass("nav_ex")
   }else{
     $(".extra_nav").removeClass("nav_ex")
   }
 
-  if( scrolling >150){
+  if( scrolling >160){
     $(".nav_ani").addClass("nav_ex")
   }else{
     $(".nav_ani").removeClass("nav_ex")
