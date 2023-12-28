@@ -906,7 +906,8 @@
     }
 
     .product-img a img {
-        margin: 0;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
     /* ##### NEW PRODUCT END ##### */
 
@@ -1255,7 +1256,8 @@
     }
 
     .product-img a img {
-        margin: 0;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
     /* ##### NEW PRODUCT END ##### */
 
@@ -1339,14 +1341,10 @@
         right: -70px;
     }
     
-    .social_icon-mobile {
-        /* position: absolute; */
-        /* right: 120px;
-        z-index: 999;
-        top: 30px; */
-    }
+    
     .product-img a img {
-        margin: 0;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 }
 
