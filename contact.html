@@ -134,124 +134,126 @@
 
 
     
-    <!-- responsive navbar start -->
-    <section class="nav_ani d-lg-none">
-
-        <nav class="navbar navbar-expand-lg res_nav">
-            <div class="container">
-                <img src="./asset/images/logo/ezgif.com-crop.gif" class="res_logo" alt="">
-                <button class="navbar-toggler nav_toggle_btn" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-
-                    <i class="fa-solid fa-bars"></i>
-
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link  " aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="store.html">Store</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contact</a>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="about.html">About</a>
-                        </li>
-
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="extra_nav_items">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="navbar-text">
-                            <div class="social_icon">
-                                <ul class="d-flex justify-content-center">
-                                    <form class="search">
-                                        <div class="search__wrapper">
-                                            <input type="text" name="" placeholder="Search for..." class="search__field">
-                                            <button type="submit">
-                                                <i class="fa-solid fa-magnifying-glass"></i>
-                                            </button>
-                                        </div>
-                                    </form>
-                                    <li class="noi_phone"><a href="#!" class="p-0"><i class="fa-regular fa-user"></i></a>
-                                    </li>
-    
-                                    <li class="cart_btn">
-                                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                                            <i
-                                            class="fa-solid fa-cart-shopping"></i>
+ <!-- Responsive Navbar Start -->
+ <section class="nav_ani d-lg-none">
+    <div class="extra_nav_items">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="navbar-text">
+                        <div class="social_icon">
+                            <ul class="d-flex justify-content-end">
+                                <form class="search">
+                                    <div class="search__wrapper">
+                                        <input type="text" name="" placeholder="Search for..."
+                                            class="search__field">
+                                        <button type="submit">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
                                         </button>
-                                        <span class="cart_doten">3</span>
-                                    </li>
-                                </ul>
-                            </div>
+                                    </div>
+                                </form>
+                                <li class="noi_phone"><a href="#" class="p-0"><i
+                                            class="fa-regular fa-user"></i></a>
+                                </li>
+
+                                <li class="cart_btn">
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </button>
+                                    <span class="cart_doten">3</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
-    
-    
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-                <h5 id="offcanvasRightLabel text-center">YOUR CART |</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <nav class="navbar navbar-expand-lg res_nav">
+        <div class="container">
+            <img src="./asset/images/logo/ezgif.com-crop.gif" class="res_logo" alt="">
+            <button class="navbar-toggler nav_toggle_btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="store.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">Contact</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about.html">About</a>
+                    </li>
+
+
+                </ul>
             </div>
-            <div class="offcanvas-body">
-                <div class="shopoin_cart">
-                    <div class="box">
-                        <i class="fa fa-trash"></i>
-                        <img src="./asset/images/card-img/card-1.png" alt="">
-                        <div class="content">
-                            <h3>Blouse T-shirt</h3>
-                            <span class="price">Price : $30.00 /-</span>
-                            <span class="quantity">Qty : 2</span>
-                        </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel text-center">YOUR CART |</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="shopoin_cart">
+                <div class="box">
+                    <i class="fa fa-trash"></i>
+                    <img src="./asset/images/card-img/card-1.png" alt="">
+                    <div class="content">
+                        <h3>Blouse T-shirt</h3>
+                        <span class="price">Price : $30.00 /-</span>
+                        <span class="quantity">Qty : 2</span>
                     </div>
-                    <div class="box">
-                        <i class="fa fa-trash"></i>
-                        <img src="./asset/images/card-img/cart-2.png" alt="">
-                        <div class="content">
-                            <h3>Blouse T-shirt</h3>
-                            <span class="price">Price : $30.00 /-</span>
-                            <span class="quantity">Qty : 2</span>
-                        </div>
+                </div>
+                <div class="box">
+                    <i class="fa fa-trash"></i>
+                    <img src="./asset/images/card-img/cart-2.png" alt="">
+                    <div class="content">
+                        <h3>Blouse T-shirt</h3>
+                        <span class="price">Price : $30.00 /-</span>
+                        <span class="quantity">Qty : 2</span>
                     </div>
-                    <div class="box">
-                        <i class="fa fa-trash"></i>
-                        <img src="./asset/images/card-img/cart-3.png" alt="">
-                        <div class="content">
-                            <h3>Blouse T-shirt</h3>
-                            <span class="price">Price : $30.00 /-</span>
-                            <span class="quantity">Qty : 2</span>
-    
-                        </div>
+                </div>
+                <div class="box">
+                    <i class="fa fa-trash"></i>
+                    <img src="./asset/images/card-img/cart-3.png" alt="">
+                    <div class="content">
+                        <h3>Blouse T-shirt</h3>
+                        <span class="price">Price : $30.00 /-</span>
+                        <span class="quantity">Qty : 2</span>
+
                     </div>
-                    <div class="total">
-                        <ul>
-                            <li>Subtotal: <span>$90</span></li>
-                            <li>Discount 20%: <span>- $18.9</span></li>
-                            <li>Total: <span>$75.6</span></li>
-                        </ul>
-                        <a href="#" class="btn-c">Checkout</a>
-                    </div>
+                </div>
+                <div class="total">
+                    <ul>
+                        <li>Subtotal: <span>$90</span></li>
+                        <li>Discount 20%: <span>- $18.9</span></li>
+                        <li>Total: <span>$75.6</span></li>
+                    </ul>
+                    <a href="#" class="btn-c">Checkout</a>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- responsive navbar end -->
+    </div>
+</section>
+<!-- Responsive Navbar End -->
 
 
 
