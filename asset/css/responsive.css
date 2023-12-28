@@ -210,6 +210,9 @@
 
 }
 
+
+
+
 @media (min-width: 768px) and (max-width: 991.98px) {
     .res_nav .res_logo{
         width: 40% !important;
@@ -427,10 +430,13 @@
         margin: 0 -56px 0 -49px;
     }
 
+    
+
     .product-but {
         text-align: center;
         padding: 3rem 0 0 12px;
     }
+
 
     /* ##### NEW PRODUCT END ##### */
 
@@ -899,6 +905,9 @@
         padding: 3rem 0 0 12px;
     }
 
+    .product-img a img {
+        margin: 0;
+    }
     /* ##### NEW PRODUCT END ##### */
 
 
@@ -1245,6 +1254,9 @@
         padding: 3rem 0 0 26px;
     }
 
+    .product-img a img {
+        margin: 0;
+    }
     /* ##### NEW PRODUCT END ##### */
 
 
@@ -1320,18 +1332,21 @@
     .manu_fixed {
         padding: 1px 32px;
     }
-
+    
     .card-area {
         position: relative;
         top: -29px;
         right: -70px;
     }
-
+    
     .social_icon-mobile {
         /* position: absolute; */
         /* right: 120px;
         z-index: 999;
         top: 30px; */
+    }
+    .product-img a img {
+        margin: 0;
     }
 }
 
